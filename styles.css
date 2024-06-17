@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2A2F5B;
+    min-height: 100vh;
+}
+
+.form {
+    width: 400px;
+    padding: 60px 25px;
+    border-radius: 5px;
+}
+
+label {
+    color: #495057 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}

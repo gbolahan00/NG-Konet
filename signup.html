@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - ngkonet.com | Buy Data, Airtime to cash, Bills Payment</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-primary d-flex align-items-center">
+    <div class="container-fluid py-3 d-flex align-items-center">
+        <form class="bg-white p-4 p-md-5 m-auto form" id="signUpForm">
+
+            <div class="text-center pt-3">
+                <img src="/images/logo.png" alt="NGkonet" width="60px">
+            </div>
+            <h3 class="text-center fs-5 fw-bolder mb-5">Sign Up </h3>
+            <div class="mb-3">
+                <label for="fullName" class="form-label">FullName<span class="text-danger fw-bolder">*</span></label>
+                <input type="text" class="form-control p-2" id="fullName">
+                <div class=" error-message" id="fullNameError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="userName" class="form-label">UserName<span class="text-danger fw-bolder">*</span></label>
+                <input type="text" class="form-control p-2" id="userName">
+                <div class=" error-message" id="userNameError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email<span class="text-danger fw-bolder">*</span></label>
+                <input type="email" class="form-control p-2" id="signUpEmail">
+                <div class=" error-message" id="signUpEmailError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone<span class="text-danger fw-bolder">*</span></label>
+                <input type="tel" class="form-control p-2" id="phone">
+                <small id="phonehint" class="form-text text-muted">(e.g 0814253701) No need of +234814253701</small>
+                <div class="error-message" id="phoneError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Address<span class="text-danger fw-bolder">*</span></label>
+                <input type="text" class="form-control p-2" id="address">
+                <div class=" error-message" id="addressError"></div>
+            </div>
+            <div class="mb-3">
+                <label for="referal" class="form-label">Referal username [optional]</label>
+                <input type="text" class="form-control p-2" id="referal">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password<span class="text-danger fw-bolder">*</span></label>
+                <input type="password" class="form-control p-2" id="signUpPassword">
+                <small id="passwordhint" class="form-text text-muted">min_lenght-8 mix characters [i.e musa1234]
+                </small>
+                <div class=" error-message" id="signUpPasswordError"></div>
+            </div>
+
+            <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirm Password<span
+                        class="text-danger fw-bolder">*</span></label>
+                <input type="password" class="form-control p-2" id="confirmPassword">
+                <small id="confirmPasswordhint" class="form-text text-muted">Enter same password as before</small>
+                <div class="error-message" id="confirmPasswordError"></div>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <a class="fw-bolder no-underline" href="terms.html">I Agree the terms and conditions.</a>
+                <div class=" error-message" id="checkboxError"></div>
+            </div>
+            <button type="submit" class="btn btn-primary"
+                style="background: linear-gradient(162deg, orange, #ff9400) !important; border: none;">Submit
+            </button>
+            <div class="Login text-center pt-3">
+                <span class="msg">Already a member?</span>
+                <a href="login.html" id="login" class="fw-bolder">Sign In</a>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+
+    <script src="signup.js"></script>
+
+</body>
+
+</html>
